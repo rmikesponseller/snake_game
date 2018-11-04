@@ -47,8 +47,8 @@ while True:
 		food = None
 		while food is None: 
 			nf = [
-				random.randinit(1,sh-1),
-				random.randinit(1,sw-1)
+				random.randint(1,sh-1),
+				random.randint(1,sw-1)
 			]
 
 			food = nf if nf not in snake else None
