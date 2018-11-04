@@ -1,17 +1,5 @@
-import os 
-import sys 
-import math 
-import datetime
-import pandas as pd 
-import numpy as np 
-import re
-import matplotlib.pyplot as plt
-import webbrowser
 import random 
 import curses
-
-from datetime import date 
-from array import array 
 
 s = curses.initscr()
 curses.curs_set(0)
