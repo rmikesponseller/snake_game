@@ -30,7 +30,7 @@ while True:
 		curses.endwin()
 		quit()
 
-	new_head [snake[0][0], snake[0][1]]
+	new_head = [snake[0][0], snake[0][1]]
 
 	if key == curses.KEY_DOWN: 
 		new_head[0] +=1
