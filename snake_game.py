@@ -57,7 +57,7 @@ while True:
 		food = None
 		while food is None: 
 			nf = [
-				random.randinit(1,sh-1)
+				random.randinit(1,sh-1),
 				random.randinit(1,sw-1)
 			]
 
